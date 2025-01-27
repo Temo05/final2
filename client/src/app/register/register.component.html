@@ -1,0 +1,13 @@
+<form [formGroup]="registrationForm" class="login-form">
+    <h1>Register page</h1>
+    <input class="input-field" type="text" placeholder="username" formControlName="username">
+    <small *ngIf="this.registrationForm.get('username')?.invalid 
+                && this.registrationForm.get('username')?.touched">*Username is required</small>
+    <input class="input-field" type="password" placeholder="Password" formControlName="password">
+    <small *ngIf="this.registrationForm.get('password')?.invalid
+                    && this.registrationForm.get('password')?.touched">*Username is required</small>
+
+    <button class="submit-button" type="submit" (click)="Register()" [disabled]="registrationForm.invalid">Sign
+        Up</button>
+    <button class="submit-button" type="button" routerLink="../login">Back To Sign In</button>
+</form>
