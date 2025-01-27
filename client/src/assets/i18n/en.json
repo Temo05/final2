@@ -1,5 +1,8 @@
 {
-    "login page": "login page",
-    "Register": "Register",
-    "Sign In": "Sign In"
+  "login page": "login page",
+  "Register": "Register",
+  "Sign In": "Sign In",
+  "Sign Up": "Sign Up",
+  "back to sign in": "Back To Sign In",
+  "register page": "Register Page"
 }

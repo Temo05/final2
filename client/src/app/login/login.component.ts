@@ -63,7 +63,7 @@ export class LoginComponent {
         this.translate.use('ka');
         break;
       case 'ka':
-        this.translate.use('de');
+        this.translate.use('uz');
         break;
       case 'de':
         this.translate.use('en');

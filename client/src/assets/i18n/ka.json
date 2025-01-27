@@ -1,6 +1,8 @@
 {
-    "login page": "შესვლა",
-    "Register": "რეგისტრაცია",
-    "Sign In": "შესვლა"
-
+  "login page": "შესვლა",
+  "Register": "რეგისტრაცია",
+  "Sign In": "შესვლა",
+  "Sign Up": "დარეგისტრირდი",
+  "back to sign in": "დაუბრუნდი შესვლას",
+  "register page": "რეგისტრაცია"
 }

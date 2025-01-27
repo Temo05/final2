@@ -1,9 +1,11 @@
 .login-form {
-  width: 300px;
+  width: 500px;
+  height: 400px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  text-align: center;
   margin-top: 10em;
 }
 
@@ -41,10 +43,16 @@ small {
 
 .languages {
   display: inline-block;
+  margin-top: 2em;
   width: 100%;
 }
 
 .languages a {
   margin: 2em;
-  border: 2px solid salmon;
+  padding: 1em;
+  clip-path: circle();
+  width: 2em;
+  background-color: salmon;
+  color: white;
+  font-size: 1.2em;
 }

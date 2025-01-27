@@ -34,7 +34,7 @@
     (click)="Login()"
     [disabled]="logInForm.invalid"
   >
-    Sign In
+    {{ "Sign In" | translate }}
   </button>
   <button type="button" class="submit-button" (click)="goToRegister()">
     {{ "Register" | translate }}
@@ -42,6 +42,6 @@
   <div class="languages">
     <a (click)="setLanguage('ka')">KA</a>
     <a (click)="setLanguage('en')">EN</a>
-    <a (click)="setLanguage('de')">DE</a>
+    <a (click)="setLanguage('uz')">UZ</a>
   </div>
 </form>
