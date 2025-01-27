@@ -1,0 +1,19 @@
+rmdir /s /q .git
+git remote remove origin
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-username/your-repository-name.git
+git branch -M main
+git push -u origin main
+
+
+rorame 
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Resolve merge conflicts"
+git push origin main
+
+
+git push origin main --force
+git pull origin main
